@@ -1,4 +1,4 @@
-# Mobile Security Configuration Evaluator — Architecture & Threat Model
+# Mobile Security Configuration Evaluator  (Architecture & Threat Model)
 
 A secure architecture design and STRIDE-based threat model for an Android application that evaluates the security posture of the device it runs on.
 
@@ -8,7 +8,7 @@ This repository contains **design and security-analysis documentation**, not an 
 
 ## The system being designed
 
-The Mobile Security Configuration Evaluator (MSCE) is a hypothetical Android application that inspects security-relevant device configuration — screen lock state, developer options, patch level, installation sources, network posture — and produces a risk summary with actionable recommendations.
+The Mobile Security Configuration Evaluator (MSCE) is a hypothetical Android application that inspects security-relevant device configuration: screen lock state, developer options, patch level, installation sources, network posture, and produces a risk summary with actionable recommendations.
 
 It is deliberately **read-only and local-only**: it changes nothing on the device, and no data leaves the handset.
 
